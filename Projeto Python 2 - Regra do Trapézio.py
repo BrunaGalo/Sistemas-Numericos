@@ -1,14 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import numpy as np
 import math
-
-
-# In[2]:
 
 
 def Trapézio (n,f,a,b):
@@ -30,21 +25,18 @@ def Trapézio (n,f,a,b):
         print (f"O resultado da integral da função f:{R}")
 
 
-# In[8]:
-
-
 #Exemplo 2
 def f(x):
     return (np.e**(x))*math.sin(x)
 
 
-# In[9]:
+
 
 
 Trapézio (4, f, 0, np.pi)
 
 
-# In[5]:
+
 
 
 #Exemplo 3
@@ -52,19 +44,11 @@ def f(x):
     return(np.e**-(x**2))
 
 
-# In[6]:
 
 
 Trapézio (256, f, 0, 1)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
+:
 
 
 
